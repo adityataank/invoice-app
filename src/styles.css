@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #7b61ff;
+  --background: #f6f7f9;
+}
+
+body {
+  background: var(--background);
+  @apply font-lexend;
+  @apply tracking-wide;
+}

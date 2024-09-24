@@ -1,0 +1,6 @@
+{
+    "/": "Invoices",
+    "/new": "Create a new invoice",
+    "/clients": "My clients",
+    "/clients/new": "Create a new client"
+}
