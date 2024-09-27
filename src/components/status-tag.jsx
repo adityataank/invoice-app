@@ -1,13 +1,15 @@
+import moment from "moment";
 import { cn } from "../lib/utils";
 
 const STYLE_MAP = {
   paid: "bg-[#F5FCD2] text-[#659711]",
   unpaid: "bg-[#FFF8D7] text-[#DBA32A]",
-  due: "bg-[#FFE7D3] text-[#FF4423]",
+  late: "bg-[#FFE7D3] text-[#FF4423]",
 };
 
-function StatusTag({ status = "" }) {
-  const cls = STYLE_MAP[status.toLowerCase()];
+function StatusTag({ status = "", due_date = "" }) {
+  const tag = moment(due_date).isBefore(moment()) ? "Late" : status;
+  const cls = STYLE_MAP[tag.toLowerCase()];
   return (
     <div
       className={cn(
@@ -15,7 +17,7 @@ function StatusTag({ status = "" }) {
         cls
       )}
     >
-      {status}
+      {tag}
     </div>
   );
 }

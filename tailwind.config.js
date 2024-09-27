@@ -7,9 +7,6 @@ module.exports = {
         "primary-color": "var(--primary-color)",
         "background-color": "var(--background)",
       },
-      fontFamily: {
-        lexend: ["Lexend", "sans-serif"],
-      },
       keyframes: {
         wiggle: {
           "0%": {

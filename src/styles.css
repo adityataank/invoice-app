@@ -9,6 +9,14 @@
 
 body {
   background: var(--background);
-  @apply font-lexend;
   @apply tracking-wide;
+}
+
+.datePicker > div {
+  border-radius: 0.375rem;
+  border-color: rgb(209 213 219);
+  padding: 12px 16px;
+  &:hover {
+    border-color: rgb(163 163 164);
+  }
 }

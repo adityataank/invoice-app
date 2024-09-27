@@ -6,6 +6,7 @@ import Invoices from "./components/pages/invoices";
 import MyClients from "./components/pages/clients";
 import NewClient from "./components/pages/new-client";
 import NewInvoice from "./components/pages/new-invoice";
+import InvoiceDetail from "./components/pages/invoice-detail";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Invoices />} />
           <Route path="new" element={<NewInvoice />} />
+          <Route path="/invoices/:id" element={<InvoiceDetail />} />
           <Route path="clients" element={<MyClients />} />
           <Route path="clients/new" element={<NewClient />} />
         </Route>

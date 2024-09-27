@@ -1,8 +1,8 @@
 import { Children } from "react";
 import { cn } from "../../lib/utils";
 
-const headings = ["", "Name", "Date", "Client", "Price", "Status", ""];
-const rightAlignedHeadings = ["Price"];
+const headings = ["", "Name", "Date", "Client", "Amount", "Status", ""];
+const rightAlignedHeadings = ["Amount"];
 
 const Heading = ({ heading }) => {
   const isRightAligned = rightAlignedHeadings.includes(heading);

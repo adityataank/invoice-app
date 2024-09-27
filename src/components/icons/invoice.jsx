@@ -17,7 +17,7 @@ function InvoiceIcon(props) {
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className={className ? "" : "group-hover:stroke-primary-color"}
+        className={className ? "" : "group-hover:stroke-black"}
       />
       <path
         d="M8.09656 11H8.10554"
@@ -25,7 +25,7 @@ function InvoiceIcon(props) {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className={className ? "" : "group-hover:stroke-primary-color"}
+        className={className ? "" : "group-hover:stroke-black"}
       />
       <path
         d="M10.8989 11H16.3989"
@@ -33,7 +33,7 @@ function InvoiceIcon(props) {
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className={className ? "" : "group-hover:stroke-primary-color"}
+        className={className ? "" : "group-hover:stroke-black"}
       />
       <path
         d="M8.09656 7H8.10554"
@@ -41,7 +41,7 @@ function InvoiceIcon(props) {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className={className ? "" : "group-hover:stroke-primary-color"}
+        className={className ? "" : "group-hover:stroke-black"}
       />
       <path
         d="M10.8989 7H16.3989"
@@ -49,7 +49,7 @@ function InvoiceIcon(props) {
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className={className ? "" : "group-hover:stroke-primary-color"}
+        className={className ? "" : "group-hover:stroke-black"}
       />
     </svg>
   );

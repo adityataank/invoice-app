@@ -8,7 +8,7 @@ const Tab = ({ name = "" }) => {
   return (
     <div
       className={cn(
-        "h-full text-gray-500 font-medium cursor-pointer px-4 grid place-items-center relative after:absolute after:w-0 after:h-[4px] after:bg-primary-color after:-bottom-[2px]",
+        "h-full text-gray-500 font-medium cursor-pointer px-4 grid place-items-center relative transition-colors after:absolute after:w-0 after:h-[4px] after:bg-primary-color after:-bottom-[2px] hover:text-primary-color",
         isSelected && "text-primary-color after:w-full"
       )}
     >

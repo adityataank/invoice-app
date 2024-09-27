@@ -17,7 +17,7 @@ function ClientsIcon(props) {
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className={className ? "" : "group-hover:stroke-primary-color"}
+        className={className ? "" : "group-hover:stroke-black"}
       />
       <path
         d="M16.41 4C18.35 4 19.91 5.57 19.91 7.5C19.91 9.39 18.41 10.93 16.54 11C16.46 10.99 16.37 10.99 16.28 11"
@@ -25,7 +25,7 @@ function ClientsIcon(props) {
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className={className ? "" : "group-hover:stroke-primary-color"}
+        className={className ? "" : "group-hover:stroke-black"}
       />
       <path
         d="M4.15997 14.56C1.73997 16.18 1.73997 18.82 4.15997 20.43C6.90997 22.27 11.42 22.27 14.17 20.43C16.59 18.81 16.59 16.17 14.17 14.56C11.43 12.73 6.91997 12.73 4.15997 14.56Z"
@@ -33,7 +33,7 @@ function ClientsIcon(props) {
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className={className ? "" : "group-hover:stroke-primary-color"}
+        className={className ? "" : "group-hover:stroke-black"}
       />
       <path
         d="M18.3401 20C19.0601 19.85 19.7401 19.56 20.3001 19.13C21.8601 17.96 21.8601 16.03 20.3001 14.86C19.7501 14.44 19.0801 14.16 18.3701 14"
@@ -41,7 +41,7 @@ function ClientsIcon(props) {
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className={className ? "" : "group-hover:stroke-primary-color"}
+        className={className ? "" : "group-hover:stroke-black"}
       />
     </svg>
   );

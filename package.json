@@ -11,10 +11,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "flux": "^4.0.4",
     "moment": "^2.30.1",
     "react": "^18.3.1",
+    "react-date-picker": "^11.0.0",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
+    "react-select": "^5.8.1",
     "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {

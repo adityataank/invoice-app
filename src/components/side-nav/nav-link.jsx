@@ -22,15 +22,15 @@ function NavLink({ name = "", route = "", active = [] }) {
     <Link
       to={route}
       className={cn(
-        "flex items-center gap-4 w-full group py-3 px-4 rounded-xl hover:bg-violet-100/35",
-        isActive && "bg-violet-100/60 hover:bg-violet-100/60"
+        "flex items-center gap-4 w-full group py-3 px-4 rounded-xl",
+        isActive && "bg-[#7b61ff10]"
       )}
     >
       {icon}
       <p
         className={cn(
-          "font-medium text-gray-500 group-hover:text-primary-color transition-colors",
-          isActive && "text-primary-color"
+          "font-medium text-gray-500 group-hover:text-black transition-colors",
+          isActive && "text-primary-color group-hover:text-primary-color"
         )}
       >
         {name}
