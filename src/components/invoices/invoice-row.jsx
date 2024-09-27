@@ -80,7 +80,7 @@ function InvoiceRow({
   const Client = () => <td className="capitalize">{client?.label}</td>;
 
   const Amount = () => (
-    <td className="text-right pr-20">{formatAmount(amount)}</td>
+    <td className="text-right pr-20">{formatAmount(amount ?? 0)}</td>
   );
 
   const Status = () => (

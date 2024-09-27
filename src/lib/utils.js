@@ -7,7 +7,7 @@ export function cn(...inputs) {
 }
 
 export const formatAmount = (amount) => {
-  if (amount) {
+  if (amount >= 0) {
     return new Intl.NumberFormat("en-US", {
       style: "currency",
       currency: "USD",

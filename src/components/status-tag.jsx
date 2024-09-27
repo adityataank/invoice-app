@@ -8,7 +8,8 @@ const STYLE_MAP = {
 };
 
 function StatusTag({ status = "", due_date = "" }) {
-  const tag = moment(due_date).isBefore(moment()) ? "Late" : status;
+  const tag =
+    moment(due_date).isBefore(moment()) && status !== "Paid" ? "Late" : status;
   const cls = STYLE_MAP[tag.toLowerCase()];
   return (
     <div
